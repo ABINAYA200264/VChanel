@@ -142,6 +142,10 @@
 # wrapt==1.17.3
 
 
+# Pin Python version for Render
+python_version=="3.10.*"
+
+
 # --- Web Framework ---
 fastapi==0.116.1
 uvicorn==0.29.0
@@ -175,12 +179,12 @@ matplotlib==3.10.5
 seaborn==0.13.2
 
 # --- Deep Learning ---
-tensorflow-cpu==2.18.0
+tensorflow==2.18.0
 keras==3.11.3
 torch==2.5.0
 torchvision==0.20.1
 onnxruntime==1.22.1
-ultralytics==8.2.90  # YOLOv8
+ultralytics==8.2.90
 
 # --- Visualization ---
 opencv-python==4.12.0.88
