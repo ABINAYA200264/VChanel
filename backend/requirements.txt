@@ -148,7 +148,7 @@ fastapi==0.111.0
 uvicorn==0.30.6
 
 # --- Core ML / DS Stack ---
-tensorflow==2.15.0       # latest stable supported on Python 3.10/3.11
+tensorflow       # latest stable supported on Python 3.10/3.11
 keras==2.15.0            # matches TF version
 torch==2.2.2             # latest compatible with Python 3.10/3.11
 torchvision==0.17.2      # matches torch
