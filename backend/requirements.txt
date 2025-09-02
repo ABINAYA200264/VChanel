@@ -142,51 +142,51 @@
 # wrapt==1.17.3
 
 
-
 # --- Web Framework ---
-fastapi==0.111.0
-uvicorn==0.30.6
+fastapi
+uvicorn
 
 # --- Core ML / DS Stack ---
-tensorflow       # latest stable supported on Python 3.10/3.11
-keras==2.15.0            # matches TF version
-torch         # latest compatible with Python 3.10/3.11
-torchvision==0.17.2      # matches torch
-onnxruntime==1.20.1
-ultralytics==8.2.90
+tensorflow
+keras
+torch
+torchvision
+onnxruntime
+ultralytics
 
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.5.1
-scipy==1.13.1
-seaborn==0.13.2
-matplotlib==3.10.0
+numpy
+pandas
+scikit-learn
+scipy
+seaborn
+matplotlib
 
 # --- Utilities ---
-pydantic==2.11.1
-pydantic-extra-types==2.10.0
-pydantic-settings==2.10.0
-python-dotenv==1.0.1
-python-multipart==0.0.20
-requests==2.32.3
-email_validator==2.1.0
-orjson==3.10.7
-ujson==5.9.0
-PyYAML==6.0.1
+pydantic
+pydantic-extra-types
+pydantic-settings
+python-dotenv
+python-multipart
+requests
+email_validator
+orjson
+ujson
+PyYAML
 
 # --- Logging & CLI ---
-click==8.1.7
-typer==0.12.3
-coloredlogs==15.0.1
-humanfriendly==10.0
-rich==13.7.1
-sentry-sdk==2.14.0
+click
+typer
+coloredlogs
+humanfriendly
+rich
+sentry-sdk
 
 # --- Visualization ---
-opencv-python==4.10.0.84
-Pillow==10.3.0
+opencv-python
+Pillow
 
 # --- Misc ---
-protobuf==4.25.3
-setuptools==70.0.0
-wheel==0.43.0
+protobuf
+setuptools
+wheel
+
